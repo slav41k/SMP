@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Python: module library</title>
+</head><body>
+
+<table class="heading">
+<tr class="heading-text decor">
+<td class="title">&nbsp;<br><strong class="title">library</strong></td>
+<td class="extra"><a href=".">index</a><br><a href="file:c%3A%5C3.1%5C%D1%81%D0%BC%D0%BF%5Clab9%5Clibrary.py">c:\3.1\смп\lab9\library.py</a></td></tr></table>
+    <p></p>
+<p>
+<table class="section">
+<tr class="decor pkg-content-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><strong class="bigsection">Modules</strong></td></tr>
+    
+<tr><td class="decor pkg-content-decor"><span class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td><td>&nbsp;</td>
+<td class="singlecolumn"><table><tr><td class="multicolumn"><a href="logging.html">logging</a><br>
+</td><td class="multicolumn"></td><td class="multicolumn"></td><td class="multicolumn"></td></tr></table></td></tr></table><p>
+<table class="section">
+<tr class="decor index-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><strong class="bigsection">Classes</strong></td></tr>
+    
+<tr><td class="decor index-decor"><span class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td><td>&nbsp;</td>
+<td class="singlecolumn"><dl>
+<dt class="heading-text"><a href="builtins.html#object">builtins.object</a>
+</dt><dd>
+<dl>
+<dt class="heading-text"><a href="library.html#Calculator">Calculator</a>
+</dt><dd>
+<dl>
+<dt class="heading-text"><a href="library.html#BasicCalculator">BasicCalculator</a>
+</dt><dd>
+<dl>
+<dt class="heading-text"><a href="library.html#ScientificCalculator">ScientificCalculator</a>
+</dt></dl>
+</dd>
+</dl>
+</dd>
+<dt class="heading-text"><a href="library.html#Chart">Chart</a>
+</dt><dd>
+<dl>
+<dt class="heading-text"><a href="library.html#LineChart">LineChart</a>
+</dt></dl>
+</dd>
+<dt class="heading-text"><a href="library.html#DataLoader">DataLoader</a>
+</dt></dl>
+</dd>
+</dl>
+ <p>
+<table class="section">
+<tr class="decor title-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><a name="BasicCalculator">class <strong>BasicCalculator</strong></a>(<a href="library.html#Calculator">Calculator</a>)</td></tr>
+    
+<tr><td class="decor title-decor" rowspan=2><span class="code">&nbsp;&nbsp;&nbsp;</span></td>
+<td class="decor title-decor" colspan=2><span class="code">Клас&nbsp;для&nbsp;базових&nbsp;арифметичних&nbsp;обчислень.<br>&nbsp;</span></td></tr>
+<tr><td>&nbsp;</td>
+<td class="singlecolumn"><dl><dt>Method resolution order:</dt>
+<dd><a href="library.html#BasicCalculator">BasicCalculator</a></dd>
+<dd><a href="library.html#Calculator">Calculator</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="BasicCalculator-calculate"><strong>calculate</strong></a>(self, num1, num2, operator)</dt><dd><span class="code">Виконує&nbsp;базові&nbsp;арифметичні&nbsp;операції:&nbsp;+,&nbsp;-,&nbsp;*,&nbsp;/.</span></dd></dl>
+
+<hr>
+Methods inherited from <a href="library.html#Calculator">Calculator</a>:<br>
+<dl><dt><a name="BasicCalculator-__init__"><strong>__init__</strong></a>(self)</dt><dd><span class="code">Ініціалізація&nbsp;калькулятора&nbsp;з&nbsp;порожніми&nbsp;історією&nbsp;та&nbsp;пам'яттю.</span></dd></dl>
+
+<dl><dt><a name="BasicCalculator-add_to_history"><strong>add_to_history</strong></a>(self, expression)</dt><dd><span class="code">Додає&nbsp;вираз&nbsp;до&nbsp;історії&nbsp;обчислень.</span></dd></dl>
+
+<dl><dt><a name="BasicCalculator-set_decimal_places"><strong>set_decimal_places</strong></a>(self)</dt><dd><span class="code">Встановлює&nbsp;кількість&nbsp;знаків&nbsp;після&nbsp;коми&nbsp;для&nbsp;результатів&nbsp;обчислень.</span></dd></dl>
+
+<dl><dt><a name="BasicCalculator-show_history"><strong>show_history</strong></a>(self)</dt><dd><span class="code">Відображає&nbsp;історію&nbsp;обчислень.</span></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="library.html#Calculator">Calculator</a>:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><span class="code">dictionary&nbsp;for&nbsp;instance&nbsp;variables</span></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><span class="code">list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object</span></dd>
+</dl>
+</td></tr></table> <p>
+<table class="section">
+<tr class="decor title-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><a name="Calculator">class <strong>Calculator</strong></a>(<a href="builtins.html#object">builtins.object</a>)</td></tr>
+    
+<tr><td class="decor title-decor" rowspan=2><span class="code">&nbsp;&nbsp;&nbsp;</span></td>
+<td class="decor title-decor" colspan=2><span class="code">Базовий&nbsp;клас&nbsp;для&nbsp;калькулятора,&nbsp;що&nbsp;містить&nbsp;методи&nbsp;для&nbsp;обчислень.<br>&nbsp;</span></td></tr>
+<tr><td>&nbsp;</td>
+<td class="singlecolumn">Methods defined here:<br>
+<dl><dt><a name="Calculator-__init__"><strong>__init__</strong></a>(self)</dt><dd><span class="code">Ініціалізація&nbsp;калькулятора&nbsp;з&nbsp;порожніми&nbsp;історією&nbsp;та&nbsp;пам'яттю.</span></dd></dl>
+
+<dl><dt><a name="Calculator-add_to_history"><strong>add_to_history</strong></a>(self, expression)</dt><dd><span class="code">Додає&nbsp;вираз&nbsp;до&nbsp;історії&nbsp;обчислень.</span></dd></dl>
+
+<dl><dt><a name="Calculator-set_decimal_places"><strong>set_decimal_places</strong></a>(self)</dt><dd><span class="code">Встановлює&nbsp;кількість&nbsp;знаків&nbsp;після&nbsp;коми&nbsp;для&nbsp;результатів&nbsp;обчислень.</span></dd></dl>
+
+<dl><dt><a name="Calculator-show_history"><strong>show_history</strong></a>(self)</dt><dd><span class="code">Відображає&nbsp;історію&nbsp;обчислень.</span></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><span class="code">dictionary&nbsp;for&nbsp;instance&nbsp;variables</span></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><span class="code">list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object</span></dd>
+</dl>
+</td></tr></table> <p>
+<table class="section">
+<tr class="decor title-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><a name="Chart">class <strong>Chart</strong></a>(<a href="builtins.html#object">builtins.object</a>)</td></tr>
+    
+<tr><td class="decor title-decor" rowspan=2><span class="code">&nbsp;&nbsp;&nbsp;</span></td>
+<td class="decor title-decor" colspan=2><span class="code"><a href="#Chart">Chart</a>(data)<br>
+&nbsp;<br>
+Базовий&nbsp;клас&nbsp;для&nbsp;графіків.<br>&nbsp;</span></td></tr>
+<tr><td>&nbsp;</td>
+<td class="singlecolumn">Methods defined here:<br>
+<dl><dt><a name="Chart-__init__"><strong>__init__</strong></a>(self, data)</dt><dd><span class="code">Ініціалізація&nbsp;графіка&nbsp;з&nbsp;даними.</span></dd></dl>
+
+<dl><dt><a name="Chart-plot"><strong>plot</strong></a>(self)</dt><dd><span class="code">Метод&nbsp;для&nbsp;побудови&nbsp;графіка,&nbsp;повинен&nbsp;бути&nbsp;перевизначений&nbsp;в&nbsp;підкласах.</span></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><span class="code">dictionary&nbsp;for&nbsp;instance&nbsp;variables</span></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><span class="code">list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object</span></dd>
+</dl>
+</td></tr></table> <p>
+<table class="section">
+<tr class="decor title-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><a name="DataLoader">class <strong>DataLoader</strong></a>(<a href="builtins.html#object">builtins.object</a>)</td></tr>
+    
+<tr><td class="decor title-decor" rowspan=2><span class="code">&nbsp;&nbsp;&nbsp;</span></td>
+<td class="decor title-decor" colspan=2><span class="code"><a href="#DataLoader">DataLoader</a>(file_path)<br>
+&nbsp;<br>
+Клас&nbsp;для&nbsp;завантаження&nbsp;даних&nbsp;з&nbsp;CSV&nbsp;файлу.<br>&nbsp;</span></td></tr>
+<tr><td>&nbsp;</td>
+<td class="singlecolumn">Methods defined here:<br>
+<dl><dt><a name="DataLoader-__init__"><strong>__init__</strong></a>(self, file_path)</dt><dd><span class="code">Ініціалізація&nbsp;<a href="#DataLoader">DataLoader</a>&nbsp;з&nbsp;вказаним&nbsp;шляхом&nbsp;до&nbsp;файлу.</span></dd></dl>
+
+<dl><dt><a name="DataLoader-load_data"><strong>load_data</strong></a>(self)</dt><dd><span class="code">Завантажує&nbsp;дан&nbsp;і&nbsp;з&nbsp;CSV&nbsp;файлу.</span></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><span class="code">dictionary&nbsp;for&nbsp;instance&nbsp;variables</span></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><span class="code">list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object</span></dd>
+</dl>
+</td></tr></table> <p>
+<table class="section">
+<tr class="decor title-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><a name="LineChart">class <strong>LineChart</strong></a>(<a href="library.html#Chart">Chart</a>)</td></tr>
+    
+<tr><td class="decor title-decor" rowspan=2><span class="code">&nbsp;&nbsp;&nbsp;</span></td>
+<td class="decor title-decor" colspan=2><span class="code"><a href="#LineChart">LineChart</a>(data)<br>
+&nbsp;<br>
+Клас&nbsp;для&nbsp;побудови&nbsp;лінійного&nbsp;графіка.<br>&nbsp;</span></td></tr>
+<tr><td>&nbsp;</td>
+<td class="singlecolumn"><dl><dt>Method resolution order:</dt>
+<dd><a href="library.html#LineChart">LineChart</a></dd>
+<dd><a href="library.html#Chart">Chart</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="LineChart-plot"><strong>plot</strong></a>(self)</dt><dd><span class="code">Побудова&nbsp;лінійного&nbsp;графіка.</span></dd></dl>
+
+<hr>
+Methods inherited from <a href="library.html#Chart">Chart</a>:<br>
+<dl><dt><a name="LineChart-__init__"><strong>__init__</strong></a>(self, data)</dt><dd><span class="code">Ініціалізація&nbsp;графіка&nbsp;з&nbsp;даними.</span></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="library.html#Chart">Chart</a>:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><span class="code">dictionary&nbsp;for&nbsp;instance&nbsp;variables</span></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><span class="code">list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object</span></dd>
+</dl>
+</td></tr></table> <p>
+<table class="section">
+<tr class="decor title-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><a name="ScientificCalculator">class <strong>ScientificCalculator</strong></a>(<a href="library.html#BasicCalculator">BasicCalculator</a>)</td></tr>
+    
+<tr><td class="decor title-decor" rowspan=2><span class="code">&nbsp;&nbsp;&nbsp;</span></td>
+<td class="decor title-decor" colspan=2><span class="code">Клас&nbsp;для&nbsp;наукових&nbsp;обчислень,&nbsp;що&nbsp;розширює&nbsp;<a href="#BasicCalculator">BasicCalculator</a>.<br>&nbsp;</span></td></tr>
+<tr><td>&nbsp;</td>
+<td class="singlecolumn"><dl><dt>Method resolution order:</dt>
+<dd><a href="library.html#ScientificCalculator">ScientificCalculator</a></dd>
+<dd><a href="library.html#BasicCalculator">BasicCalculator</a></dd>
+<dd><a href="library.html#Calculator">Calculator</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="ScientificCalculator-calculate"><strong>calculate</strong></a>(self, num1, num2, operator)</dt><dd><span class="code">Виконує&nbsp;наукові&nbsp;операції:&nbsp;^,&nbsp;√,&nbsp;%.</span></dd></dl>
+
+<hr>
+Methods inherited from <a href="library.html#Calculator">Calculator</a>:<br>
+<dl><dt><a name="ScientificCalculator-__init__"><strong>__init__</strong></a>(self)</dt><dd><span class="code">Ініціалізація&nbsp;калькулятора&nbsp;з&nbsp;порожніми&nbsp;історією&nbsp;та&nbsp;пам'яттю.</span></dd></dl>
+
+<dl><dt><a name="ScientificCalculator-add_to_history"><strong>add_to_history</strong></a>(self, expression)</dt><dd><span class="code">Додає&nbsp;вираз&nbsp;до&nbsp;історії&nbsp;обчислень.</span></dd></dl>
+
+<dl><dt><a name="ScientificCalculator-set_decimal_places"><strong>set_decimal_places</strong></a>(self)</dt><dd><span class="code">Встановлює&nbsp;кількість&nbsp;знаків&nbsp;після&nbsp;коми&nbsp;для&nbsp;результатів&nbsp;обчислень.</span></dd></dl>
+
+<dl><dt><a name="ScientificCalculator-show_history"><strong>show_history</strong></a>(self)</dt><dd><span class="code">Відображає&nbsp;історію&nbsp;обчислень.</span></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="library.html#Calculator">Calculator</a>:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><span class="code">dictionary&nbsp;for&nbsp;instance&nbsp;variables</span></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><span class="code">list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object</span></dd>
+</dl>
+</td></tr></table></td></tr></table>
+</body></html>
